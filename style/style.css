@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap");
+
+body {
+  margin: 0 auto;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+}
+
+#logo {
+  width: 35%;
+  margin: 30px 0 0 30px;
+}
+
+#main {
+  margin: 0 auto;
+  position: static;
+  background-color: #121214;
+  background-position: left center;
+  width: 50vw;
+  height: 100vh;
+}
+
+#main h2 {
+  margin: 65px 0 0 30px;
+  color: #04d361;
+  font-family: "work sans", "spartan", sans-serif;
+  font-size: 22px;
+}
+
+#p1 {
+  margin: 13px 0 0 30px;
+  color: #fff;
+  font-family: "spartan", "work sans", sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#p2 {
+  margin: 9px 0 0 30px;
+  color: #e1e1e6;
+  font-family: "spartan";
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+#main form {
+  margin: 40px 0 0 30px;
+  width: 730px;
+}
+
+#main form #label {
+  display: block;
+  color: #a8a8a8;
+  font-family: "spartan", "work sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#email {
+  position: absolute;
+  margin-top: 15px;
+  padding: 13px 0 13px 10px;
+  border-radius: 0;
+  border: none;
+  border-left: 5px solid #04d361;
+  width: 714px;
+  font-family: "work sans", "spartan", sans-serif;
+}
+
+#btn {
+  position: relative;
+  padding: 7.2px 10px;
+  background-color: #8257e5;
+  color: #fff;
+  border: none;
+  margin: 15px 0 0 685px;
+  cursor: pointer;
+}
+
+#last-text {
+  position: absolute;
+  margin: 30px 0 0 30px;
+  color: #8257e5;
+  font-family: "spartan", "work sans", sans-serif;
+  font-weight: 700;
+}
+
+#right-arrow {
+  position: absolute;
+  margin: 28px 0 0 230px;
+  background-color: #8257e5;
+}
+
+#man {
+  object-fit: cover;
+  background-position: right center;
+  width: 50vw;
+  height: 100vh;
+}
